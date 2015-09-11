@@ -106,9 +106,9 @@ public class Hangman extends ConsoleProgram {
     }
     
     // private instance variables
-    private String word;
-    private String updatedWord = "";
-    private String lettersGuessed = ""; 
+	private String word;
+	private String updatedWord = "";
+	private String lettersGuessed = ""; 
 	private int numGuesses, numLetters = 0;
 	char guess;
 	boolean guessInWord;
