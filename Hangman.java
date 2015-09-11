@@ -36,9 +36,9 @@ public class Hangman extends ConsoleProgram {
     	int wordNum = rgen.nextInt(0, numWords);
     	word = hangmanWord.getWord(wordNum);
     	for (int i=0 ; i<word.length(); i++){
-			updatedWord = updatedWord + "-";
-			numLetters++;
-		}
+		updatedWord = updatedWord + "-";
+		numLetters++;
+	}
     	canvas.displayWord(updatedWord);
     }
     
